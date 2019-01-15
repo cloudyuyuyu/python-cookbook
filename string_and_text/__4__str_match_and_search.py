@@ -61,7 +61,6 @@ if __name__ == "__main__":
     """
     separator_content()
     date_pat_group = re.compile(r'(\d+)/(\d+)/(\d+)')
-    separator_content()
     m = date_pat_group.match("11/27/2012")
     print(m.groups())
     for month, day, year in date_pat_group.findall(text):
