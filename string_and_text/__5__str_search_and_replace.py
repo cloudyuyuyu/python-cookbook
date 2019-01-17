@@ -41,6 +41,7 @@ if __name__ == "__main__":
 
     def change_date(m):
         month_name = month_abbr[int(m.group(1))]
+        print("m.groups()", m.groups())
         return "{} {} {}".format(m.group(2), month_name, m.group(3))
 
     text_changed = date_pat.sub(change_date, text)
