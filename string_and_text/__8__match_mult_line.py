@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     separator_content()
     comment = re.compile(r'/\*(.*?)\*/')
-    text1 = '/* this is a comment */'
+    text1 = '/* this is a */comment */'
     text2 = '/* this is a \n multi_line comment */'
     print(comment.findall(text1))
     print(comment.findall(text2))
