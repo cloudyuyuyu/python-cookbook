@@ -124,11 +124,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/.idea/
-/5__File and IO/data.bin
-/5__File and IO/eggs.csv
-/5__File and IO/newsample.bin
-/5__File and IO/csvwriter.py
-/5__File and IO/somefile.bin
-/5__File and IO/test.txt
-/high_level_func.py
+#/.idea/
+#/5__File and IO/data.bin
+#/5__File and IO/eggs.csv
+#/5__File and IO/newsample.bin
+#/5__File and IO/csvwriter.py
+#/5__File and IO/somefile.bin
+#/5__File and IO/test.txt
+#/high_level_func.py
